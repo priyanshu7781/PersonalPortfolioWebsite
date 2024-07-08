@@ -573,33 +573,35 @@ section .title::after {
 }
 
 .projects .carousel .card2 {
-    background-image: url("./images/Screenshot\ \(387\).png");
+    background-image: url("./images/Screenshot\ 2024-07-07\ 103405.png");
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .projects .carousel .card3 {
-    background-image: url("./images/Screenshot\ \(387\).png");
+    background-image: url("./images/Screenshot\ \(942\).png");
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .projects .carousel .card4 {
-    background-image: url("./images/Screenshot\ \(387\).png");
+    background-image: url("./images/Screenshot\ \(945\).png");
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .projects .carousel .card5 {
-    background-image: url("./images/Screenshot\ \(387\).png");
+    background-image: url("./images/Screenshot\ \(946\).png");
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+.projects ,.carousel .card a{
+    color: #111;
+}
 .projects .carousel .card:hover {
     background-size: 350px;
 }
@@ -620,9 +622,11 @@ section .title::after {
 .projects .carousel .card .text {
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 10px 0 3px 0;
 }
-
+.projects .carousel .card4 p {
+    font-size: 14px;
+}
 /*.projects .carousel .card img {
     height: 150px;
     width: 150px;

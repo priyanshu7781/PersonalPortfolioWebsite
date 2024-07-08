@@ -920,6 +920,8 @@ footer span a:hover {
         width: 100%;
         margin-bottom: 35px;
     }
+
+    
 }
 
 @media (max-width: 690px) {
@@ -1035,6 +1037,19 @@ footer span a:hover {
     }
     .contact .contact-content .row .info .sub-title {
         font-size: 12px;
+    }
+
+    .skills .skills-content .box {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+    }
+
+    .skills .skills-content .box img {
+
+        width: 100px;
+        height: 100px;
+    
     }
     
 }
